@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sawarabi Gothic', sans-serif;
+
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+.head {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.head h2 {
+    float: left;
+    padding-left: 35px;
+    font-weight: normal;
+    margin-top: 17px;
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+.head a {
+    text-decoration: none;
+    color: #000;
+    padding: 8px 15px;
+}
+
+.head a:hover {
+    background-color: #D6E1DD;
+
+    color: #000;
+
+}
+
+.head ul {
+    float: right;
+    list-style: none;
+    padding-right: 40px;
+    margin-top: 18px;
+
+}
+
+.head ul li {
+    display: inline;
+    margin-left: 10px;
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+
+.head-photo {
+    min-height: 700px;
+    background-image: url(../images/hamburger.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.head-photo-text h1 {
+    margin-top: -80px;
+    margin-left: 20px;
+    opacity: .8;
+    font-weight: normal;
+    letter-spacing: 7.5px;
+    font-size: 35px;
+}
+
+/********start section1 ************/
+
+.section-1 {
+    padding-top: 80px;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 100px;
+}
+
+.section-1-img {
+    width: 49%;
+    float: left;
+    overflow: hidden;
+}
+
+.section-1-img img {
+    width: 500px;
+    height: 680px;
+    opacity: .7
+}
+
+.section-1-para {
+    width: 47%;
+    float: right;
+    margin-left: 27px;
+
+
+}
+
+.section-1-para h1 {
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 6px;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.section-1-para h3 {
+    font-weight: normal;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 6px;
+}
+
+.section-1-para p:first-of-type {
+    width: 100%;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.section-1-para p:last-of-type {
+    font-size: 17px;
+    line-height: 1.5;
+    opacity: .7;
+}
+
+/********end section1 ************/
+
+/********start section 2*********/
+
+.section-2 {
+    margin-top: 80px;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    margin-bottom: 60px;
+}
+
+.section-2-img {
+    width: 49%;
+    float: right;
+    overflow: hidden;
+    opacity: .7;
+}
+
+.section-2-para {
+    width: 47%;
+    float: left;
+    margin-right: 27px;
+}
+
+.section-2-para h1 {
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 6px;
+    font-size: 36px;
+    padding-top: 20px;
+
+}
+
+.section-2-para h3 {
+    font-weight: normal;
+    font-size: 21px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.section-2-para span {
+    padding-top: 5px;
+    opacity: .7;
+}
+
+/*start contact */
+
+.contact {
+    margin-top: 30px;
+}
+
+.contact h1 {
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 6px;
+    font-size: 35px;
+    margin-bottom: 45px;
+}
+
+.contact p {
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.contact span {
+    color: #607D99;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+form input {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+    padding: 20px 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+form button {
+    background: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 12px 17px;
+    margin-top: 13px;
+}
+
+form button:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+/*END contact */
+
+footer {
+    margin-top: 100px;
+    background-color: #F1F1F1;
+    padding: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+
+footer a {
+    color: #000;
+}
+
+footer a:hover {
+    color: #080;
+}
